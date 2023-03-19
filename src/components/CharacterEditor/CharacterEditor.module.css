@@ -4,6 +4,16 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
+}
+
+.perspectiveBar{
+  position: fixed;
+  top:60%;
+  left: 0;
+  height: 500px;
+  width: 100%;
+  background-color: hsl(195deg, 20%, 86%);
 }
 
 .header {
